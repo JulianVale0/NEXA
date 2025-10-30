@@ -1,0 +1,14 @@
+{
+  "site": {
+    "name": "nexa-core",
+    "buildCommand": "npm run build",
+    "buildOutputDir": "dist",
+    "publishDir": "dist",
+    "routes": [
+      {
+        "src": "/.*",
+        "dest": "/index.html"
+      }
+    ]
+  }
+}
